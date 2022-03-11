@@ -1,0 +1,59 @@
+/* pages/detail/childCpns/cs-comment/cs-comment.wxss */
+.cs-comment {
+  padding: 20rpx 10rpx;
+  color: #818181;
+  /* border-bottom: 10rpx solid #eee; */
+}
+
+.comment-item {
+  padding: 10rpx 0;
+}
+
+.comment-item + .comment-item {
+  border-bottom: 4rpx solid #eee;
+}
+
+.avatar-info {
+  height: 60rpx;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+}
+
+.cs-avatar {
+  height: 60rpx;
+  width: 60rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+
+.comment-info {
+  padding: 20rpx 0;
+  text-indent: 32px;
+}
+
+.date-info {
+  font-size: 24rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+
+.cs-date {
+  margin-right: 20rpx;
+}
+
+.img-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.cs-img-item {
+  width: 30%;
+  border-radius: 20rpx;
+  vertical-align: middle;
+}
+
+.cs-img-item:nth-child(2n) {
+  margin: 0 5%;
+}

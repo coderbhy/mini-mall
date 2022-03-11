@@ -1,0 +1,24 @@
+<!--pages/detail/childCpns/cs-detail-image/cs-detail-image.wxml-->
+<view class="cs-detail-image">
+  <block
+    wx:for="{{ detailImage }}"
+    wx:for-item="outer"
+    wx:key="index"
+  >
+    <view>
+      <view class="cs-outer-title">{{ outer.key }}</view>
+      <block
+        wx:for="{{ outer.list }}"
+        wx:for-item="inner"
+        wx:key="index"
+      >
+        <image
+          class="cs-show-image"
+          src="{{ inner }}"
+          lazy-load
+          mode="widthFix"
+        ></image>
+      </block>
+    </view>
+  </block>
+</view>

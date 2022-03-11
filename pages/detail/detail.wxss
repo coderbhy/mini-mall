@@ -1,0 +1,11 @@
+/* pages/detail/detail.wxss */
+.detail-page {
+  height: calc(100vh - 50px);
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.cs-detail-swiper {
+  height: 600rpx;
+}

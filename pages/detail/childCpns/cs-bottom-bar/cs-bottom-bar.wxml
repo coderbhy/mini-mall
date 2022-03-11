@@ -1,0 +1,36 @@
+<!--pages/detail/childCpns/cs-bottom-bar/cs-bottom-bar.wxml-->
+<view class="cs-bottom-bar">
+  <view class="cs-left">
+    <view class="cs-left-item">
+      <image 
+        class="cs-left-icon"
+        src="/assets/image/detail/chat.png"
+      ></image>
+      <text>客服</text>
+    </view>
+    <view class="cs-left-item">
+      <image 
+        class="cs-left-icon"
+        src="/assets/image/detail/store.png"
+      ></image>
+      <text>店铺</text>
+    </view>
+    <view class="cs-left-item">
+      <image 
+        class="cs-left-icon"
+        src="/assets/image/detail/star.png"
+      ></image>
+      <text>收藏</text>
+    </view>
+  </view>
+  <view class="cs-right">
+    <view
+      class="cs-add-cart"
+      bindtap="addGoods"
+    >加入购物车</view>
+    <view
+      class="cs-buy"
+      bindtap="buyGoods"
+    >购买</view>
+  </view>
+</view>

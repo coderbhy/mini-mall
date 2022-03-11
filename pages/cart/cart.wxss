@@ -1,0 +1,23 @@
+/* pages/cart/cart.wxss */
+.cart-page {
+  padding: 10rpx;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 100rpx);
+  overflow: scroll;
+}
+
+.cs-cart-list-item {
+  border-bottom: 10rpx solid #eee;
+}
+
+.cs-cart-list-item:last-of-type {
+  border-bottom: none;
+}
+
+.cs-bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

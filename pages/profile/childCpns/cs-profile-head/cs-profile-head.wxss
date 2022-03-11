@@ -1,0 +1,71 @@
+/* pages/profile/childCpns/cs-profile-head/cs-profile-head.wxss */
+.cs-profile-head-cpn {
+  border-bottom: 30rpx solid #eee;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.cs-top-part {
+  height: 300rpx;
+  background: #ff5777;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.cs-profile-avatar {
+  width: 120rpx;
+  border-radius: 50%;
+  margin: 0 20rpx;
+  background: ivory;
+  padding: 20rpx
+}
+
+.cs-login {
+  display: flex;
+  flex-direction: column;
+  font-size: 40rpx;
+}
+
+.cs-login-btn {
+  margin-bottom: 20rpx
+}
+
+.cs-profile-phone {
+  width: 30rpx;
+}
+
+.cs-login-phone {
+  display: flex;
+  font-size: 24rpx;
+  align-items: center;
+}
+
+.cs-profile-right {
+  width: 60rpx;
+  position: relative;
+  left: 250rpx;
+}
+
+.cs-bottom-part {
+  display: flex;
+  height: 175rpx;
+}
+
+.cs-part-item {
+  flex: 1;
+  border-right: 4rpx solid #eee;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cs-part-item:last-child {
+  border-right: none;
+}
+
+.cs-number {
+  color: #ff5777;
+  font-size: 36rpx;
+  font-weight: 700;
+}

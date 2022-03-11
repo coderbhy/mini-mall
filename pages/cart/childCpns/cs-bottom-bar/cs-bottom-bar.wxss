@@ -1,0 +1,32 @@
+/* pages/cart/childCpns/cs-bottom-bar/cs-bottom-bar.wxss */
+.cs-cart-bottom-bar {
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  background: #EEEEEE;
+  height: 100rpx;
+}
+
+.select-radio {
+  margin-left: 20rpx;
+}
+
+.select-label {
+  margin-right: 60rpx;
+}
+
+.cs-all-price {
+  font-size: 32rpx;
+}
+
+.cs-cart-bottom-btn {
+  width: 30%;
+  background: #FF4500;
+  height: 100%;
+  color: white;
+  position: absolute;
+  right: 0;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 32rpx;
+}

@@ -1,0 +1,21 @@
+<!--components/cs-tabbar/cs-tabbar.wxml-->
+<view
+  class="cs-tabbar"
+  hidden="{{ fixTabIsShow }}"
+>
+  <block
+    wx:for="{{ tabs }}"
+    wx:key="index"
+  >
+    <view
+      class="cs-tabbar-item"
+      bindtap="setCurrentIndex"
+      data-index="{{ index }}"
+    >
+      <text
+        class="cs-tabbar-item-text {{ currentIndex === index ? 'active' : '' }}"
+      >{{ item }}</text>
+    </view>
+  </block>
+</view>
+

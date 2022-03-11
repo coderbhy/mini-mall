@@ -1,0 +1,22 @@
+<!--pages/category/category.wxml-->
+<view class="cs-category">
+  <cs-category
+    category="{{ category }}"
+    bindlistenCurrentMaitKey="listenCurrentMaitKey"
+  />
+  <!-- <cs-goods class="cs-category-goods">
+    <block
+      wx:for="{{ subCategory }}"
+      wx:key="image"
+    >
+      <cs-goods-item
+        class="cs-category-goods-item"
+        goodsInfo="{{ item }}"
+      ></cs-goods-item>
+    </block>
+  </cs-goods> -->
+  <cs-waterfall
+    class="cs-detail-waterfall"
+    all-dis-data="{{ subCategory }}"
+  />
+</view>

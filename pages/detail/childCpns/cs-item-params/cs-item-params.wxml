@@ -1,0 +1,33 @@
+<!--pages/detail/childCpns/cs-item-params/cs-item-params.wxml-->
+<view class="cs-item-params">
+  <view class="cs-table">
+    <block
+      wx:for="{{ itemParams.rule.tables[0] }}"
+      wx:key="index"
+      wx:for-item="outer"
+    >
+      <view class="cs-tr">
+        <block
+          wx:for="{{ outer }}"
+          wx:key="index"
+          wx:for-item="inner"
+        >
+          <view class="cs-td">{{ inner }}</view>
+        </block>
+      </view>
+    </block>
+    <block
+      wx:for="{{ itemParams.info.set }}"
+      wx:key="index"
+    >
+      <view class="cs-tr">
+        <view class="cs-td">
+          {{ item.key }}
+        </view>
+        <view class="cs-td-value cs-td">
+          {{ item.value }}
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

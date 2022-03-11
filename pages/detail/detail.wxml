@@ -1,0 +1,20 @@
+<!--pages/detail/detail.wxml-->
+<view class="detail-page">
+  <cs-swiper
+    class="cs-detail-swiper"
+    banners="{{ topImages }}"
+  />
+  <cs-title-info
+    item-info="{{ itemInfo }}"
+    columns="{{ columns }}"
+    shop-info="{{ shopInfo }}"
+  />
+  <cs-shop
+    shop-info="{{ shopInfo }}"
+  ></cs-shop>
+  <cs-item-params item-params="{{ itemParams }}" />
+  <cs-detail-image detail-image="{{ detailImage }}" />
+  <cs-comment comments="{{ comments }}" />
+
+  <cs-bottom-bar bindaddGoods="addGoods" />
+</view>

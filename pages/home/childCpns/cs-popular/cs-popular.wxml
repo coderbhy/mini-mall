@@ -1,0 +1,8 @@
+<!--pages/home/childCpns/cs-popular/cs-popular.wxml-->
+<view class="cs-popular">
+  <image
+    src="/assets/image/home/popular.jpg"
+    mode="widthFix"
+    class="cs-popular-image"
+></image>
+</view>

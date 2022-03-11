@@ -1,0 +1,49 @@
+/* pages/cart/childCpns/cs-cart-item/cs-cart-item.wxss */
+.cs-cart-item {
+  display: flex;
+  align-items: center;
+  height: 300rpx;
+  padding: 20rpx 0;
+}
+
+.cs-cart-image {
+  width: 190rpx;
+  border-radius: 20rpx;
+  margin: 0 20rpx;
+}
+
+.text-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.cs-goods-title, .cs-goods-desc {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cs-goods-title {
+  font-weight: 700;
+  font-size: 40rpx;
+}
+
+.cs-goods-desc {
+  color: #818181;
+}
+
+.cs-other {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cs-goods-price {
+  color: #ff5777;
+  font-size: 36rpx;
+}

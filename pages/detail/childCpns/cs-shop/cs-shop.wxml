@@ -1,0 +1,21 @@
+<!--pages/detail/childCpns/cs-shop/cs-shop.wxml-->
+<view class="cs-shop">
+  <view class="cs-shop-base">
+    <image
+      class="cs-shop-logo"
+      src="{{ shopInfo.shopLogo }}"
+    ></image>
+    <text>{{ shopInfo.name }}</text>
+  </view>
+  <view class="cs-shop-score">
+    <block
+      wx:for="{{ shopInfo.score }}"
+      wx:key="name"
+    >
+      <view class="cs-shop-score-item">
+        <text>{{ item.name }}</text>
+        <text>{{ item.score }}</text>
+      </view>
+    </block>
+  </view>
+</view>

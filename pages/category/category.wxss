@@ -1,0 +1,21 @@
+/* pages/category/category.wxss */
+.cs-category {
+  display: flex;
+  flex-direction: row;
+}
+
+.cs-category-goods {
+  width: calc(100vw - 160rpx);
+  max-height: 100vh;
+  overflow: scroll;
+}
+
+.cs-category-goods-item {
+  width: 48%;
+}
+
+.cs-detail-waterfall {
+  width: calc(100% - 160rpx);
+  max-height: 100vh;
+  overflow: scroll;
+}

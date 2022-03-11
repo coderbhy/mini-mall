@@ -1,0 +1,34 @@
+/* pages/detail/childCpns/cs-detail-image/cs-detail-image.wxss */
+.cs-detail-image {
+  border-bottom: 10rpx solid #eee;
+}
+
+.cs-outer-title {
+  height: 100rpx;
+  color: #818181;
+  line-height: 100rpx;
+  text-align: center;
+  position: relative;
+}
+
+.cs-outer-title::before, .cs-outer-title::after {
+  content: "";
+  position: absolute;
+  width: 140rpx;
+  height: 4rpx;
+  background: rgba(100, 100, 100, 0.3);
+}
+
+.cs-outer-title::before {
+  top: 8rpx;
+  left: 8rpx;
+}
+
+.cs-outer-title::after {
+  bottom: 8rpx;
+  right: 8rpx;
+}
+
+.cs-show-image {
+  width: 100%;
+}

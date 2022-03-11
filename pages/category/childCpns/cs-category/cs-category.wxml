@@ -1,0 +1,19 @@
+<!--pages/category/childCpns/cs-category/cs-category.wxml-->
+<scroll-view
+  class="cs-category"
+  enable-flex
+  scroll-y
+  show-scrollbar="{{ false }}"
+  enhanced
+>
+  <block
+    wx:for="{{ category }}"
+    wx:key="maitKey"
+  >
+    <view
+      class="cs-category-item {{ item.maitKey === currentMaitKey ? 'active' : '' }}"
+      bindtap="setCurrentMaitKey"
+      data-mait-key="{{ item.maitKey }}"
+    >{{ item.title }}</view>
+  </block>
+</scroll-view>

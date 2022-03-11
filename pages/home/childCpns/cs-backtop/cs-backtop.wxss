@@ -1,0 +1,17 @@
+/* pages/home/childCpns/cs-backtop/cs-backtop.wxss */
+.cs-backtop {
+  position: fixed;
+  right: 10rpx;
+  bottom: 10rpx;
+  background: rgba(100, 100, 100, 0.3);
+  border-radius: 50%;
+  width: 100rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cs-backtop-image {
+  width: 80%;
+}

@@ -1,0 +1,52 @@
+/* pages/detail/childCpns/cs-bottom-bar/cs-bottom-bar.wxss */
+.cs-bottom-bar {
+  height: 100rpx;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  box-shadow: 0 -2rpx 6rpx 0 rgba(100, 100, 100, 0.3);
+  background: white;
+  z-index: 10;
+}
+
+.cs-left, .cs-right {
+  width: 50%;
+  display: flex;
+}
+
+.cs-left {
+  font-size: 28rpx;
+  color: #818181;
+}
+
+.cs-left-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cs-left-icon {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.cs-add-cart, .cs-buy {
+  flex: 1;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 28rpx;
+}
+
+.cs-add-cart {
+  background: orange;
+  color: #818181;
+}
+
+.cs-buy {
+  background: #ff5777;
+  color: white;
+}

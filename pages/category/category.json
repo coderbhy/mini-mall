@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "cs-category": "./childCpns/cs-category/cs-category",
+    "cs-goods": "/components/cs-goods/cs-goods",
+    "cs-goods-item": "/components/cs-goods-item/cs-goods-item",
+    "cs-waterfall": "/components/cs-waterfall/cs-waterfall"
+  },
+  "navigationBarTitleText": "分类"
+}

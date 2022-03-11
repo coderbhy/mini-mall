@@ -1,0 +1,21 @@
+/* pages/profile/childCpns/cs-profile-list/cs-profile-list.wxss */
+.cs-profile-list-cpn {
+  padding-left: 20rpx;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.cs-profile-list-item {
+  border-bottom: 4rpx solid #eee;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+}
+
+.cs-profile-list-item:last-child {
+  border: none;
+}
+
+.cs-list-item-icon {
+  width: 50rpx;
+  margin-right: 30rpx;
+}

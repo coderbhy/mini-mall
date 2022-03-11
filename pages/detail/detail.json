@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "cs-swiper": "/components/cs-swiper/cs-swiper",
+    "cs-title-info": "./childCpns/cs-title-info/cs-title-info",
+    "cs-shop": "./childCpns/cs-shop/cs-shop",
+    "cs-detail-image": "./childCpns/cs-detail-image/cs-detail-image",
+    "cs-item-params": "./childCpns/cs-item-params/cs-item-params",
+    "cs-bottom-bar": "./childCpns/cs-bottom-bar/cs-bottom-bar",
+    "cs-comment": "./childCpns/cs-comment/cs-comment"
+  },
+  "navigationBarTitleText": "商品详情"
+}

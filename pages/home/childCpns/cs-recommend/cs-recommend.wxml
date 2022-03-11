@@ -1,0 +1,15 @@
+<!--pages/home/childCpns/cs-recommend/cs-recommend.wxml-->
+<view class="cs-recommend">
+  <block
+    wx:for="{{ recommends }}"
+    wx:key="title"
+  >
+    <view class="cs-recommend-item">
+      <image
+        class="cs-recommend-image"
+        src="{{ item.image }}"
+      ></image>
+      <text>{{ item.title }}</text>
+    </view>
+  </block>
+</view>

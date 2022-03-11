@@ -1,0 +1,26 @@
+/* components/cs-goods-item/cs-goods-item.wxss */
+.cs-goods-item {
+  width: 100%;
+  position: relative;
+  /* min-height: 620rpx; */
+}
+
+.cs-goods-item-image {
+  width: 100%;
+  vertical-align: middle;
+  margin-bottom: 80rpx;
+  border-radius: 20rpx;
+}
+
+.cs-goods-item-text {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 28rpx;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}

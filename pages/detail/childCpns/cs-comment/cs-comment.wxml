@@ -1,0 +1,33 @@
+<!--pages/detail/childCpns/cs-comment/cs-comment.wxml-->
+<view class="cs-comment">
+  <block
+    wx:for="{{ comments }}"
+    wx:key="created"
+  >
+    <view class="comment-item">
+      <view class="avatar-info">
+        <image class="cs-avatar" src="{{ item.user.avatar }}" />
+        <text>{{ item.user.uname }}</text>
+      </view>
+      <view class="comment-info">
+        {{ item.content }}
+      </view>
+      <view class="date-info">
+        <text class="cs-date">{{ item.created }}</text>
+        <text class="style">{{ item.style }}</text>
+      </view>
+      <view class="img-info">
+        <block
+          wx:for="{{ item.images }}"
+          wx:key="index"
+        >
+          <image
+            src="{{ item }}"
+            class="cs-img-item"
+            mode="widthFix"
+          ></image>
+        </block>
+      </view>
+    </view>
+  </block>
+</view>

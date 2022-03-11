@@ -1,0 +1,16 @@
+<!--pages/cart/childCpns/cs-bottom-bar/cs-bottom-bar.wxml-->
+<view class="cs-cart-bottom-bar">
+  <radio
+    id="all-select"
+    class="select-radio"
+    color="#ff5777"
+    checked="{{ selectAll }}"
+    bindtap="setSeleteAll"
+  ></radio>
+  <label
+    for="all-select"
+    class="select-label"
+  >全选</label>
+  <view class="cs-all-price">总计：{{ totalPrice }}</view>
+  <view class="cs-cart-bottom-btn">去计算({{ totalNum }})</view>
+</view>

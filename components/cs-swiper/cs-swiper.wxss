@@ -1,0 +1,9 @@
+/* components/cs-swiper/cs-swiper.wxss */
+.cs-swiper {
+  min-height: 390rpx;
+  height: 100%;
+}
+
+.cs-swiper-image {
+  width: 100%;
+}

@@ -1,0 +1,4 @@
+<!--components/cs-goods/cs-goods.wxml-->
+<view class="cs-goods">
+  <slot></slot>
+</view>

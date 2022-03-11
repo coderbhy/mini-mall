@@ -1,0 +1,26 @@
+/* pages/detail/childCpns/cs-shop/cs-shop.wxss */
+.cs-shop {
+  padding: 40rpx 20rpx;
+  color: #818181;
+  font-size: 28rpx;
+  border-bottom: 10rpx solid #eee;
+}
+
+.cs-shop-base {
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.cs-shop-logo {
+  width: 70rpx;
+  height: 70rpx;
+  margin-right: 20rpx;
+}
+
+
+.cs-shop-score {
+  display: flex;
+  justify-content: space-between;
+}

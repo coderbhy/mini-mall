@@ -1,0 +1,20 @@
+<!--pages/cart/cart.wxml-->
+<view class="cart-page">
+  <block
+    wx:for="{{ cartList }}"
+    wx:key="iid"
+  >
+    <cs-cart-item
+      class="cs-cart-list-item"
+      cart-item="{{ item }}"
+      bindsetSelectSingle="setSelectSingle"
+    />
+  </block>
+  <cs-bottom-bar
+    class="cs-bottom-bar"
+    select-all="{{ selectAll }}"
+    bindsetSelectAll="setSelectAll"
+    checked-iid="{{ checkedIID }}"
+    total-price="{{ totalPrice }}"
+  />
+</view>

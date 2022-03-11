@@ -1,0 +1,52 @@
+<!--components/cs-waterfall/cs-waterfall.wxml-->
+<view
+  class="cs-waterfall-cpn"
+  bindtap="routeToDetail"
+>
+  <view class="cs-waterfall-left">
+    <block
+      wx:for="{{ leftDisData }}"
+      wx:key="iid"
+    >
+      <view
+        class="cs-waterfall-left-item"
+      >
+        <image
+          src="{{ item.show.img || item.image }}"
+          class="cs-waterfall-img"
+          style="height: {{ item.itemHeight + 'rpx' }}"
+          lazy-load
+          data-iid="{{ item.iid }}"
+        ></image>
+        <view
+          class="cs-waterfall-text"
+          data-iid="{{ item.iid }}"
+        >
+          {{ item.title }}
+        </view>
+      </view>
+    </block>
+  </view>
+  <view class="cs-waterfall-right">
+    <block
+      wx:for="{{ rightDisData }}"
+      wx:key="iid"
+    >
+      <view class="cs-waterfall-right-item">
+        <image
+          src="{{ item.show.img || item.image }}"
+          class="cs-waterfall-img"
+          style="height: {{ item.itemHeight + 'rpx' }}"
+          lazy-load
+          data-iid="{{ item.iid }}"
+        ></image>
+        <view
+          class="cs-waterfall-text"
+          data-iid="{{ item.iid }}"
+        >
+          {{ item.title }}
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

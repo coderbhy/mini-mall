@@ -1,0 +1,39 @@
+<!--pages/profile/childCpns/cs-profile-head/cs-profile-head.wxml-->
+<view class="cs-profile-head-cpn">
+  <view class="cs-top-part">
+    <image
+      class="cs-profile-avatar"
+      mode="widthFix"
+      src="../../../../assets/image/profile/person.png"></image>
+    <view class="cs-login">
+      <text class="cs-login-btn">登录/注册</text>
+      <view class="cs-login-phone">
+        <image
+          src="../../../../assets/image/profile/phone.png"
+          class="cs-profile-phone"
+          mode="widthFix"
+        ></image>
+        <text>暂无绑定手机号码</text>
+      </view>
+    </view>
+    <image
+      class="cs-profile-right"
+      mode="widthFix"
+      src="../../../../assets/image/profile/right.png"
+    ></image>
+  </view>
+  <view class="cs-bottom-part">
+    <view class="cs-part-item">
+      <text><text class="cs-number">0.00</text>元</text>
+      <text>我的余额</text>
+    </view>
+    <view class="cs-part-item">
+      <text><text class="cs-number">0</text>个</text>
+      <text>我的优惠</text>
+    </view>
+    <view class="cs-part-item">
+      <text><text class="cs-number">0</text>分</text>
+      <text>我的积分</text>
+    </view>
+  </view>
+</view>

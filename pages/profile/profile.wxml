@@ -1,0 +1,12 @@
+<!--pages/profile/profile.wxml-->
+<view class="profile-page">
+  <cs-profile-head />
+  <cs-profile-list 
+    list="{{ list1 }}"
+    class="cs-profile-list"
+  />
+  <cs-profile-list 
+    list="{{ list2 }}"
+    class="cs-profile-list"
+  />
+</view>

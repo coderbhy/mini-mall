@@ -1,0 +1,7 @@
+/* components/cs-goods/cs-goods.wxss */
+.cs-goods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}

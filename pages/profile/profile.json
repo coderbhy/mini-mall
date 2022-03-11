@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "cs-profile-head": "./childCpns/cs-profile-head/cs-profile-head",
+    "cs-profile-list": "./childCpns/cs-profile-list/cs-profile-list"
+  },
+  "navigationBarTitleText": "我的信息"
+}

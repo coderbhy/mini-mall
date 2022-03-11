@@ -1,0 +1,28 @@
+/* pages/detail/childCpns/cs-item-params/cs-item-params.wxss */
+.cs-item-params {
+  padding: 10px;
+  color: #818181;
+  border-bottom: 10rpx solid #eee;
+}
+
+.cs-tr {
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  border-bottom: 4rpx solid #eee;
+}
+
+.cs-td + .cs-td {
+  flex: 1;
+}
+
+.cs-td:nth-child(1) {
+  flex: 0 0 140rpx;
+}
+
+.cs-td-value {
+  color: #ff5777;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

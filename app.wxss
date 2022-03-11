@@ -1,0 +1,8 @@
+/**app.wxss**/
+.full-width {
+  width: 100%;
+}
+
+page {
+  position: relative;
+}

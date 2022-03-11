@@ -1,0 +1,24 @@
+/* pages/category/childCpns/cs-category/cs-category.wxss */
+.cs-category {
+  display: flex;
+  flex-direction: column;
+  width: 160rpx;
+  background: #eee;
+  height: 100vh;
+}
+
+.cs-category-item {
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+
+.cs-category-item:last-child {
+  border-bottom: none;
+}
+
+.active.active {
+  content: "";
+  background: white;
+}

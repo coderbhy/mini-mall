@@ -1,0 +1,13 @@
+/* pages/profile/profile.wxss */
+.profile-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.cs-profile-list {
+  border-bottom: 30rpx solid #eee;
+}
+
+.cs-profile-list:last-of-type {
+  border: none;
+}

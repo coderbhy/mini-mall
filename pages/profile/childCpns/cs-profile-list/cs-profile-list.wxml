@@ -1,0 +1,16 @@
+<!--pages/profile/childCpns/cs-profile-list/cs-profile-list.wxml-->
+<view class="cs-profile-list-cpn">
+  <block
+    wx:for="{{ list }}"
+    wx:key="title"
+  >
+    <view class="cs-profile-list-item">
+      <image
+        src="{{ item.icon }}"
+        class="cs-list-item-icon"
+        mode="widthFix"
+      ></image>
+      <text>{{ item.title }}</text>
+    </view>
+  </block>
+</view>

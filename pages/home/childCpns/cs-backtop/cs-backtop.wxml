@@ -1,0 +1,12 @@
+<!--pages/home/childCpns/cs-backtop/cs-backtop.wxml-->
+<view
+  class="cs-backtop"
+  bindtap="scrollToTop"
+  hidden="{{ !backIsShow }}"
+>
+  <image
+    src="/assets/image/home/backtop.png"
+    class="cs-backtop-image"
+    mode="widthFix"
+  ></image>
+</view>

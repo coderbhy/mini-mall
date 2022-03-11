@@ -1,0 +1,40 @@
+<!--pages/home/home.wxml-->
+<view class="home-page">
+  <cs-swiper
+    banners="{{ banners }}"
+    class="cs-home-swiper"
+  />
+  <cs-recommend recommends="{{ recommends }}" />
+  <cs-popular />
+  <cs-tabbar
+    tabs="{{ tabs }}"          bindsetCurrentIndex="listenCurrentIndex"
+    class="cs-home-main-tabbar"
+  />
+  <cs-tabbar
+    tabs="{{ tabs }}"
+    bindsetCurrentIndex="listenCurrentIndex"
+    class="cs-home-other-tabbar"
+    fixTabIsShow="{{ !fixTabIsShow }}"
+  />
+  <!-- <cs-goods class="cs-home-goods">
+    <block
+      wx:for="{{ goodsInfo[currentType].list }}"
+      wx:key="iid"
+    >
+      <cs-goods-item
+        class="cs-home-goods-item"
+        goodsInfo="{{ item }}"
+        data-iid="{{ item.iid }}"
+        bindtap="routeToDetail"
+      ></cs-goods-item>
+    </block>
+  </cs-goods> -->
+  <cs-waterfall 
+    all-dis-data="{{ goodsInfo[currentType].list }}"
+    class="cs-waterfall"
+  />
+  <cs-backtop
+    bindscrollToTop="scrollToTop"
+    backIsShow="{{ backIsShow }}"
+  />
+</view>

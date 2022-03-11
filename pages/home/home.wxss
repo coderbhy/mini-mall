@@ -1,0 +1,30 @@
+/* pages/home/home.wxss */
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.cs-home-swiper {
+  height: 390rpx;
+}
+
+.cs-home-other-tabbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: white;
+}
+
+.cs-home-goods {
+  width: 100%;
+}
+
+.cs-home-goods-item {
+  width: 48%;
+}
+
+.cs-waterfall {
+  width: 100%;
+}

@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "cs-swiper": "/components/cs-swiper/cs-swiper",
+    "cs-recommend": "./childCpns/cs-recommend/cs-recommend",
+    "cs-popular": "./childCpns/cs-popular/cs-popular",
+    "cs-tabbar": "/components/cs-tabbar/cs-tabbar",
+    "cs-goods": "/components/cs-goods/cs-goods",
+    "cs-goods-item": "/components/cs-goods-item/cs-goods-item",
+    "cs-backtop": "./childCpns/cs-backtop/cs-backtop",
+    "cs-waterfall": "/components/cs-waterfall/cs-waterfall"
+  },
+  "navigationBarTitleText": "购物街",
+  "onReachBottomDistance": 300
+}

@@ -1,0 +1,10 @@
+<!--components/cs-goods-item/cs-goods-item.wxml-->
+<view class="cs-goods-item">
+  <image
+    src="{{ goodsInfo.show.img || goodsInfo.image }}"
+    mode="widthFix"
+    class="cs-goods-item-image"
+  >
+  </image>
+  <text class="cs-goods-item-text">{{ goodsInfo.title }}</text>
+</view>

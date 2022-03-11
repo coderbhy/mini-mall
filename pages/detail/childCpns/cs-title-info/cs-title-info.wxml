@@ -1,0 +1,35 @@
+<!--pages/detail/childCpns/cs-title-info/cs-title-info.wxml-->
+<view class="cs-title-info">
+  <text class="cs-title">{{ itemInfo.title }}</text>
+  <view class="cs-price">
+    <text class="cs-base-price cs-current-price">{{ itemInfo.price }}</text>
+    <text class="cs-base-price cs-high-price">{{ '￥' + itemInfo.highPrice }}</text>
+    <text
+      class="cs-base-price cs-discount"
+      style="background: {{ discountBgColor }}"
+    >{{ itemInfo.discountDesc }}</text>
+  </view>
+  <view class="cs-sell">
+    <block
+      wx:for="{{ columns }}"
+      wx:key="index"
+    >
+      <view>{{ item }}</view>
+    </block>
+  </view>
+  <view class="cs-separator"></view>
+  <view class="cs-shop-services">
+    <block
+      wx:for="{{ shopInfo.services }}"
+      wx:key="name"
+    >
+      <view class="cs-shop-services-item">
+        <image
+          class="cs-shop-services-icon"
+          src="{{ item.icon }}"
+        ></image>
+        <view class="cs-shop-services-name">{{ item.name }}</view>
+      </view>
+    </block>
+  </view>
+</view>

@@ -1,0 +1,24 @@
+<!--pages/cart/childCpns/cs-cart-item/cs-cart-item.wxml-->
+<view class="cs-cart-item">
+  <radio
+    bindtap="selectSingle"
+    color="#ff5777"
+    data-iid="{{ cartItem.iid }}"
+    data-is-select="{{ cartItem.checked }}"
+    value="{{ cartItem.price }}"
+    checked="{{ cartItem.checked }}"
+  ></radio>
+  <image
+    mode="widthFix"
+    class="cs-cart-image"
+    src="{{ cartItem.image }}"
+  ></image>
+  <view class="text-info">
+    <view class="cs-goods-title">{{ cartItem.title }}</view>
+    <view class="cs-goods-desc">{{ cartItem.desc }}</view>
+    <view class="cs-other">
+      <view class="cs-goods-price">{{ cartItem.price }}</view>
+      <view class="cs-goods-count">{{ '×' + cartItem.count }}</view>
+    </view>
+  </view>
+</view>

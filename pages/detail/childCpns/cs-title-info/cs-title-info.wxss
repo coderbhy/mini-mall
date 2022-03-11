@@ -1,0 +1,67 @@
+/* pages/detail/childCpns/cs-title-info/cs-title-info.wxss */
+.cs-title-info {
+  padding: 20rpx;
+  color: #818181;
+  border-bottom: 10rpx solid #eee;
+}
+
+.cs-title {
+  font-size: 30rpx;
+}
+
+.cs-price {
+  margin: 10rpx 0;
+  font-size: 28rpx;
+  display: flex;
+  align-items: center;
+}
+
+.cs-base-price + .cs-base-price {
+  margin-left: 20rpx;
+}
+
+.cs-discount {
+  border-radius: 10rpx;
+  color: white;
+  padding: 2rpx 6rpx;
+}
+
+.cs-sell {
+  display: flex;
+  justify-content: space-between;
+  font-size: 28rpx;
+}
+
+.cs-separator {
+  width: 100%;
+  height: 4rpx;
+  border-radius: 20rpx;
+  background: rgba(100, 100, 100, 0.3);
+  margin: 20rpx 0;
+}
+
+.cs-shop-services {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cs-shop-services-item {
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+}
+
+.cs-shop-services-icon {
+  width: 24rpx;
+  height: 24rpx;
+}
+
+.cs-shop-services-name {
+  font-size: 24rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+

@@ -1,0 +1,19 @@
+/* components/cs-tabbar/cs-tabbar.wxss */
+.cs-tabbar {
+  display: flex;
+}
+
+.cs-tabbar-item {
+  flex: 1;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align:center;
+}
+
+.cs-tabbar-item-text {
+  padding: 0 20rpx 10rpx 20rpx;
+}
+
+.active {
+  border-bottom: 4rpx solid #ff5777;
+}
